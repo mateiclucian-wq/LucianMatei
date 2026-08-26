@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ro" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conf. Univ. Dr. Ing. Lucian MATEI | Universitatea din Craiova</title>
+  <meta name="description"
+    content="Website academic și didactic personal al Conf. Univ. Dr. Ing. Lucian MATEI - Facultatea de Mecanică, Universitatea din Craiova. Materiale didactice cursuri, laboratoare, proiecte, publicații ISI și cercetare.">
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       Header & Navigation
+       ========================================================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo-brand">
+        <div class="logo-avatar">LM</div>
+        <div class="logo-text">
+          <span class="logo-title">Lucian MATEI</span>
+          <span class="logo-sub">Universitatea din Craiova</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="#about" class="nav-link">Despre</a>
+        <a href="#courses" class="nav-link">Discipline & Cursuri</a>
+        <a href="#books" class="nav-link">Cărți & Tratate</a>
+        <a href="#publications" class="nav-link">Publicații</a>
+        <a href="#projects" class="nav-link">Proiecte CDI</a>
+        <a href="#thesis" class="nav-link">Teme Diplomă</a>
+        <a href="#contact" class="nav-link">Contact Studenți</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" title="Comută tema (Light/Dark)">
+          <i class="fas fa-moon"></i>
+        </button>
+        <a href="#courses" class="btn btn-sm btn-primary"
+          style="display: none; @media(min-width:768px){display:inline-flex;}">
+          <i class="fab fa-google-drive"></i> Materiale Drive
+        </a>
+        <button class="btn-menu-mobile" title="Meniu Mobil">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       Hero Section
+       ========================================================================== -->
+  <section id="hero" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-university"></i> Universitatea din Craiova • Facultatea de Mecanică
+        </div>
+        <h1 class="hero-title">Conf. Univ. Dr. Ing.<br>Lucian MATEI</h1>
+        <h2 class="hero-subtitle">Ingineria Transporturilor • Sisteme Inteligente de Transport (ITS)</h2>
+        <p class="hero-affiliation">
+          <i class="fas fa-map-marker-alt" style="color: var(--primary);"></i> Departamentul Autovehicule, Transporturi
+          și Inginerie Industrială (Sala D22)
+        </p>
+        <p class="hero-bio">
+          Cadru didactic universitar și cercetător cu peste 15 ani de activitate în modelarea microscopică a fluxurilor
+          rutiere, semaforizare adaptivă în timp real (SmartLoop), tranziția către vehicule electrice & autonome și
+          proiectare mecatronică & prototipare 3D.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#courses" class="btn btn-primary">
+            <i class="fas fa-book-open"></i> Materiale Didactice (Descărcare)
+          </a>
+          <a href="#publications" class="btn btn-secondary">
+            <i class="fas fa-newspaper"></i> Publicații Științifice
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i class="fas fa-comments"></i> Contact Studenți
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">40+</span>
+            <span class="stat-label">Publicații Științifice</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">10M+</span>
+            <span class="stat-label">RON Fonduri Atrasă CDI</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">36+</span>
+            <span class="stat-label">Diplome & Disertații</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">8</span>
+            <span class="stat-label">Doctoranzi Îndrumați</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="profile-card-header">
+          <div class="profile-img-wrap">
+            <div class="profile-img-placeholder">LM</div>
+          </div>
+          <div class="profile-info">
+            <h3>Conf. Dr. Ing. Lucian Matei</h3>
+            <p>Cadru Didactic Titular</p>
+          </div>
+        </div>
+
+        <div class="profile-details">
+          <div class="detail-row">
+            <i class="fas fa-envelope detail-icon"></i>
+            <div>
+              <strong>Email Instituțional:</strong><br>
+              <a href="mailto:mateiclucian@gmail.com">mateiclucian@gmail.com</a><br>
+              <a href="mailto:lucian.matei@edu.ucv.ro">lucian.matei@edu.ucv.ro</a>
+            </div>
+          </div>
+          <div class="detail-row">
+            <i class="fas fa-phone-alt detail-icon"></i>
+            <div>
+              <strong>Telefon:</strong><br>
+              <span>(+40) 725 123 920</span>
+            </div>
+          </div>
+          <div class="detail-row">
+            <i class="fas fa-clock detail-icon"></i>
+            <div>
+              <strong>Consultații Studenți:</strong><br>
+              <span>Marți: 14:00 - 16:00 | Joi: 12:00 - 14:00</span>
+            </div>
+          </div>
+          <!-- <div class="detail-row">
+            <i class="fas fa-award detail-icon"></i>
+            <div>
+              <strong>Teză de Abilitare (2026):</strong><br>
+              <span style="font-size: 0.82rem; color: var(--text-muted);">Domeniul: Inginerie Aerospațială, Autovehicule și Transporturi</span>
+            </div>
+          </div> -->
+        </div>
+
+        <div style="border-top: 1px solid var(--border-color); padding-top: 1rem;">
+          <span
+            style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Domenii de
+            Expertiză:</span>
+          <div class="expertise-tags">
+            <span class="tag"><i class="fas fa-traffic-light"></i> Modelare Trafic (Aimsun / Vissim)</span>
+            <span class="tag"><i class="fas fa-bolt"></i> Vehicule Electrice & Hibride</span>
+            <span class="tag"><i class="fas fa-robot"></i> Vehicule Autonome</span>
+            <span class="tag"><i class="fas fa-cube"></i> Prototipare Rapidă 3D (SolidWorks)</span>
+            <span class="tag"><i class="fas fa-bus"></i> Logistică Urbană & Tranzit</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       About & Timeline Section
+       ========================================================================== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Biografie & Formare</span>
+        <h2 class="section-title">Parcurs Profesional & Academic</h2>
+        <p class="section-desc">O traiectorie coerentă bazată pe convergența dintre practica inginerească aplicată în
+          industrie, cercetarea CDI de vârf și învățământul universitar de elită.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="card-box">
+          <h3><i class="fas fa-briefcase" style="color: var(--primary);"></i> Etapele Carierei Profesionale</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <span class="timeline-year">2023 – Prezent</span>
+              <h4 class="timeline-title">Conferențiar Universitar Titular</h4>
+              <p class="timeline-org">Universitatea din Craiova, Facultatea de Mecanică</p>
+              <p class="timeline-desc">Titular de cursuri la Licență și Masterat, Director de proiecte majore de
+                cercetare (PCIDIF ~9.6 Mil. RON), coordonator studii de trafic și membru în comisii de îndrumare
+                doctorală.</p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <span class="timeline-year">2020 – 2023</span>
+              <h4 class="timeline-title">Șef de Lucrări (Lector Universitar)</h4>
+              <p class="timeline-org">Universitatea din Craiova, Facultatea de Mecanică</p>
+              <p class="timeline-desc">Responsabil program de masterat OSTR (4 ani), predare discipline de specialitate,
+                elaborare îndrumare de laborator și monografii.</p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <span class="timeline-year">2018 – 2020</span>
+              <h4 class="timeline-title">Asistent Universitar Titular</h4>
+              <p class="timeline-org">Universitatea din Craiova, Departamentul ATII</p>
+              <p class="timeline-desc">Activități didactice de laborator și proiect la disciplinele de programare,
+                fluxuri de circulație și informatică în transporturi.</p>
+            </div>
+
+            <!--             <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <span class="timeline-year">2017 – Prezent</span>
+              <h4 class="timeline-title">Application Engineer & Trainer Certificat</h4>
+              <p class="timeline-org">SC CADWORKS INTERNATIONAL SRL</p>
+              <p class="timeline-desc">Proiectare 3D CAD/FEA în SolidWorks, certificare pe echipamente profesionale de
+                fabricație aditivă 3D (Markforged, Formlabs, 3D Systems).</p>
+            </div> -->
+            <!-- 
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <span class="timeline-year">2008 – 2015</span>
+              <h4 class="timeline-title">Cercetător & Inginer Proiectant Sisteme de Trafic</h4>
+              <p class="timeline-org">SC IPA SA CIFATT Craiova / SC URCOSYS / URBAN CONTROL</p>
+              <p class="timeline-desc">Manager tehnic în proiecte europene de mobilitate (MODERN, DEMOCRITOS, FLEAT) și
+                proiectare a schemelor de semaforizare pentru intersecții urbane complexe.</p>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="card-box">
+          <h3><i class="fas fa-user-graduate" style="color: var(--accent);"></i> Studii, Calificări & Afilieri</h3>
+
+          <div style="margin-bottom: 2rem;">
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.75rem; color: var(--text-primary);">
+              Formare Universitară de Nivel Înalt:</h4>
+            <ul
+              style="display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.9rem; color: var(--text-secondary);">
+              <li><strong>• Doctor în Inginerie (2012–2016):</strong> Universitatea din Craiova. Teza: <em>„Optimizarea
+                  sistemelor de transport rutier, cu aplicație la orașul Craiova”</em>.</li>
+              <li><strong>• Inginer Diplomat Autovehicule Rutiere (2016–2018):</strong> Universitatea din Craiova,
+                Facultatea de Mecanică.</li>
+              <li><strong>• Masterat Optimizarea Sistemelor de Transport Rutier (2010–2012):</strong> Universitatea din
+                Craiova.</li>
+              <li><strong>• Inginer Diplomat Electroenergetică (2003–2008):</strong> Universitatea Politehnica
+                Timișoara.</li>
+              <li><strong>• Expert Certificat Software Aimsun:</strong> TSS Transport Simulation Systems, Barcelona
+                (2012).</li>
+              <li><strong>• Manager de Proiect:</strong> Institutul Român de Management IRECSON (2012).</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 0.75rem; color: var(--text-primary);">
+              Apartenență Asociații & Comisii Profesionale:</h4>
+            <div class="affiliations-list">
+              <div class="affiliation-item">
+                <i class="fas fa-car"></i>
+                <span>SIAR – Societatea Inginerilor de Automobile din România (FISITA & EAEC)</span>
+              </div>
+              <div class="affiliation-item">
+                <i class="fas fa-cogs"></i>
+                <span>AGIR – Asociația Generală a Inginerilor din România</span>
+              </div>
+              <div class="affiliation-item">
+                <i class="fas fa-traffic-light"></i>
+                <span>Membru în Comisia de Sistematizare a Circulației Rutiere și Pietonale (Primăria Craiova)</span>
+              </div>
+              <!--               <div class="affiliation-item">
+                <i class="fas fa-check-double"></i>
+                <span>Expert Evaluator Național de Proiecte de Cercetare UEFISCDI</span>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Teaching & Courses Section (Student Download Hub)
+       ========================================================================== -->
+  <section id="courses" class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Activitate Didactică & Resurse Studenți</span>
+        <h2 class="section-title">Discipline Predate & Materiale de Studiu</h2>
+        <p class="section-desc">Descărcați direct suporturile de curs, îndrumarele de laborator, temele de proiect și
+          modelele de subiecte pentru examen din Google Drive.</p>
+      </div>
+
+      <div class="filter-tabs">
+        <button class="filter-btn course-filter-btn active" data-filter="all">Toate Ciclurile</button>
+        <button class="filter-btn course-filter-btn" data-filter="licenta">Licență (ITT & AR)</button>
+        <button class="filter-btn course-filter-btn" data-filter="masterat">Masterat (OSTR, DMA, MSI)</button>
+      </div>
+
+      <div id="courses-container" class="courses-grid">
+        <!-- Generat dinamic de js/main.js pe baza ACADEMIC_DATA.courses -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Google Drive Download Modal
+       ========================================================================== -->
+  <div id="materials-modal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-header-info">
+          <h2 id="modal-course-title">Materiale Curs</h2>
+          <p id="modal-course-meta">Cod Disciplină • Nivel Studii</p>
+        </div>
+        <button class="modal-close" onclick="closeMaterialsModal()" title="Închide">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="modal-tabs">
+        <button class="modal-tab active" data-tab="courses">
+          <i class="fas fa-book-reader"></i> 📘 Cursuri & Teorie
+        </button>
+        <button class="modal-tab" data-tab="labs">
+          <i class="fas fa-flask"></i> 🔬 Laboratoare & Soft
+        </button>
+        <button class="modal-tab" data-tab="projects">
+          <i class="fas fa-project-diagram"></i> 📐 Teme Proiect
+        </button>
+        <button class="modal-tab" data-tab="exam">
+          <i class="fas fa-clipboard-check"></i> 📝 Examen & Bareme
+        </button>
+      </div>
+
+      <div id="modal-tab-content" class="modal-body">
+        <!-- Generat dinamic la deschiderea modalului -->
+      </div>
+
+      <div class="modal-footer">
+        <span style="font-size: 0.85rem; color: var(--text-muted);">
+          <i class="fas fa-info-circle"></i> Fișierele sunt stocate în siguranță pe Google Drive.
+        </span>
+        <a id="modal-main-drive-link" href="#" target="_blank" rel="noopener" class="btn btn-sm btn-drive">
+          <i class="fab fa-google-drive"></i> Deschide Folderul Cursului în Drive
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Books & Treatises Showcase
+       ========================================================================== -->
+  <section id="books" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Activitate Editorială</span>
+        <h2 class="section-title">Cărți, Manuale & Tratate de Specialitate</h2>
+        <p class="section-desc">Volume publicate la edituri naționale recunoscute CNCSIS și edituri internaționale de
+          prestigiu.</p>
+      </div>
+
+      <div id="books-container" class="books-grid">
+        <!-- Generat dinamic de js/main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Publications Section with Search & Filter
+       ========================================================================== -->
+  <section id="publications" class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Cercetare Științifică</span>
+        <h2 class="section-title">Publicații & Articole Științifice</h2>
+        <p class="section-desc">Lucrări publicate în reviste cotate Web of Science (cu factor de impact) și proceedings
+          indexate în fluxul științific internațional.</p>
+      </div>
+
+      <div class="publications-search-bar">
+        <div class="search-input-wrap">
+          <i class="fas fa-search"></i>
+          <input type="text" id="pub-search" class="search-input"
+            placeholder="Caută după titlu, co-autori, revistă, an sau DOI...">
+        </div>
+      </div>
+
+      <div class="filter-tabs" style="margin-bottom: 2rem;">
+        <button class="filter-btn pub-filter-btn active" data-category="all">Toate Publicațiile</button>
+        <button class="filter-btn pub-filter-btn" data-category="isi-if">Articole ISI cu Factor de Impact</button>
+        <button class="filter-btn pub-filter-btn" data-category="isi">Toate Articolele ISI Web of Science</button>
+        <button class="filter-btn pub-filter-btn" data-category="bdi">Articole BDI / Scopus</button>
+      </div>
+
+      <div id="publications-container" class="pub-list">
+        <!-- Generat dinamic de js/main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Research Projects & Grants
+       ========================================================================== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Transfer Tehnologic & CDI</span>
+        <h2 class="section-title">Granturi & Proiecte de Cercetare</h2>
+        <p class="section-desc">Coordonarea și implementarea de proiecte cu finanțare europeană, națională și contracte
+          directe de cercetare cu mediul economic și administrațiile publice locale.</p>
+      </div>
+
+      <div id="featured-project-container">
+        <!-- Proiect Fanion PCIDIF (9.6M RON) generat dinamic -->
+      </div>
+
+      <div id="projects-grid-container" class="projects-grid">
+        <!-- Generat dinamic de js/main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Thesis Proposals & Student Guidance
+       ========================================================================== -->
+  <section id="thesis" class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Îndrumare Academică</span>
+        <h2 class="section-title">Tematici pentru Proiecte de Diplomă & Disertații</h2>
+        <p class="section-desc">Teme aplicative propuse studenților de la Licență (ITT, AR) și Masterat (OSTR, DMA,
+          MSI), ancorate în proiecte reale de sistematizare și cercetare aplicată.</p>
+      </div>
+
+      <div id="thesis-container" class="thesis-grid">
+        <!-- Generat dinamic de js/main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Contact & Student Office Hours
+       ========================================================================== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Comunicare & Suport</span>
+        <h2 class="section-title">Contact Studenți & Consultații</h2>
+        <p class="section-desc">Pentru programări la consultații, clarificări privind materialele didactice sau alegerea
+          temei de licență / disertație, folosiți datele de mai jos.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info-cards">
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="contact-card-content">
+              <h4>Orar Consultații Săptămânale</h4>
+              <p><strong>Marți:</strong> 14:00 – 16:00<br><strong>Joi:</strong> 12:00 – 14:00<br>Locație: Sala D22 /
+                Laborator Modelare Trafic</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-card-content">
+              <h4>Email Oficial</h4>
+              <p><a href="mailto:mateiclucian@gmail.com">mateiclucian@gmail.com</a></p>
+              <span style="font-size: 0.8rem; color: var(--text-muted);">Răspunsuri în 24-48 de ore în zilele
+                lucrătoare.</span>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fas fa-map-marked-alt"></i>
+            </div>
+            <div class="contact-card-content">
+              <h4>Adresă Instituțională</h4>
+              <p>Universitatea din Craiova, Facultatea de Mecanică<br>Calea București, Nr. 107, Craiova, România</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fab fa-google-drive"></i>
+            </div>
+            <div class="contact-card-content">
+              <h4>Hub General Google Drive</h4>
+              <p>Toate cursurile și laboratoarele sunt sincronizate în cloud pentru acces instantaneu de oriunde.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-box">
+          <h3>Transmite un Mesaj</h3>
+          <p>Trimite un mesaj rapid pentru întrebări legate de cursuri, proiecte sau consultații.</p>
+
+          <form id="student-contact-form">
+            <div class="form-group">
+              <label class="form-label" for="form-name">Nume și Prenume Student / Vizitator *</label>
+              <input type="text" id="form-name" class="form-control" placeholder="ex: Popescu Andrei" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-email">Adresă de Email *</label>
+              <input type="email" id="form-email" class="form-control" placeholder="ex: student@student.ucv.ro"
+                required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-subject">Disciplina / Subiectul *</label>
+              <select id="form-subject" class="form-control" required>
+                <option value="" disabled selected>Selectați disciplina sau motivul...</option>
+                <option value="Proiectarea și Modelarea Fluxurilor de Circulație">Proiectarea și Modelarea Fluxurilor de
+                  Circulație</option>
+                <option value="Managementul Traficului Rutier și Telematică">Managementul Traficului Rutier și
+                  Telematică I / II</option>
+                <option value="Autovehicule Electrice și Hibride">Autovehicule Electrice și Hibride</option>
+                <option value="Informatica în Transporturi">Informatica în Transporturi</option>
+                <option value="Logistică Urbană (Master OSTR)">Logistică Urbană (Master OSTR)</option>
+                <option value="Autovehicule Autonome (Master AHEA)">Autovehicule Autonome (Master AHEA)</option>
+                <option value="Design și Prototipare Rapidă (Master MSI)">Design și Prototipare Rapidă (Master MSI)
+                </option>
+                <option value="Alegere Temă Diplomă / Disertație">Alegere Temă Diplomă / Disertație</option>
+                <option value="Programare Consultații">Programare Consultații</option>
+                <option value="Alt subiect">Alt subiect</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-message">Mesajul Tău *</label>
+              <textarea id="form-message" class="form-control"
+                placeholder="Scrieți întrebarea sau solicitarea dumneavoastră..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <i class="fas fa-paper-plane"></i> Transmite Mesajul prin Email
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>Conf. Univ. Dr. Ing. Lucian MATEI</h4>
+          <p>Universitatea din Craiova • Facultatea de Mecanică<br>Departamentul Autovehicule, Transporturi și Inginerie
+            Industrială</p>
+          <p style="margin-top: 0.75rem; font-size: 0.82rem;">Website academic dezvoltat pentru suportul didactic al
+            studenților și diseminarea activității științifice.</p>
+        </div>
+
+        <div class="footer-links">
+          <h5>Link-uri Rapide</h5>
+          <ul>
+            <li><a href="#about">Despre & Carieră</a></li>
+            <li><a href="#courses">Materiale Didactice (Drive)</a></li>
+            <li><a href="#publications">Publicații Științifice ISI</a></li>
+            <li><a href="#projects">Proiecte de Cercetare CDI</a></li>
+            <li><a href="#thesis">Teme Diplomă & Disertație</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h5>Resurse Externe</h5>
+          <ul>
+            <li><a href="http://mecanica.ucv.ro" target="_blank" rel="noopener">Facultatea de Mecanică Craiova</a></li>
+            <li><a href="https://www.ucv.ro" target="_blank" rel="noopener">Universitatea din Craiova</a></li>
+            <li><a href="https://www.webofscience.com" target="_blank" rel="noopener">Web of Science ResearcherID</a>
+            </li>
+            <li><a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 Conf. Univ. Dr. Ing. Lucian MATEI. Toate drepturile rezervate.</span>
+        <span>Craiova, România</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
