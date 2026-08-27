@@ -11,8 +11,8 @@ const ACADEMIC_DATA = {
     email: "mateiclucian@gmail.com",
     phone: "(+40) 725 123 920",
     address: "Str. Calea București, Nr. 107, 200512 Craiova, Dolj, România",
-    office: "Facultatea de Mecanică, Sala D22 / Laborator Modelare Trafic",
-    consultations: "Marți: 14:00 - 16:00 | Joi: 12:00 - 14:00 (Sala D22)",
+    office: "Facultatea de Mecanică-",
+    consultations: "Marți: 14:00 - 16:00 | Joi: 12:00 - 14:00 (Sala BL23)",
     thesisTitle: "Cercetări și contribuții privind modelarea microscopică a traficului, dirijarea adaptivă a fluxurilor și optimizarea durabilă a sistemelor de transport rutier (Teză de Abilitare, 2026)",
     bio: "Conferențiar universitar în cadrul Facultății de Mecanică a Universității din Craiova, cu o experiență de peste 15 ani în modelarea microscopică a traficului, sisteme inteligente de transport (ITS), vehicule electrice & hibride, logistica urbană și prototipare rapidă 3D. Titular de curs la programele de Licență (ITT, AR) și Masterat (OSTR, DMA, MSI), director și responsabil de proiecte de cercetare naționale și europene (PCIDIF, CIVITAS MODERN, DEMOCRITOS, FLEAT) cu finanțări cumulate de peste 10 milioane RON.",
     links: {
@@ -39,28 +39,20 @@ const ACADEMIC_DATA = {
       level: "licenta",
       degree: "Ingineria Transporturilor și a Traficului (ITT)",
       year: "Anul III, Semestrul I",
-      role: "Titular Curs & Aplicații",
-      hours: { curs: 2, lab: 2, proiect: 1 },
+      role: "-",
+      hours: { curs: 2, lab: 1, proiect: 2 },
       description: "Modelarea microscopică, mezoscopică și macroscopică a fluxurilor rutiere. Utilizarea platformelor industriale de simulare Aimsun Next și PTV Vissim, calibrarea parametrilor de comportament prin indicele statistic GEH și optimizarea capacității nodurilor rutiere.",
       software: ["Aimsun Next", "PTV Vissim", "AutoCAD"],
       driveFolder: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID",
       materials: {
         courses: [
-          /* { title: "Curs 1: Introducere în teoria fluxurilor de circulație și ecuația fundamentală (q = k · v)", size: "2.4 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Curs 2: Taxonomia modelării traficului: Scările Macroscopică, Mezoscopică și Microscopică", size: "3.1 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Curs 3: Modele de urmărire (Car-Following) și ecuația de siguranță Gipps", size: "2.8 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Curs 4: Modele de schimbare a benzii: manevre obligatorii (MLC) și discreționare (DLC)", size: "2.2 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Curs 5: Matricea Origine-Destinație (O/D) și algoritmi de alocare dinamică pe rute", size: "3.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Curs 6: Calibrarea parametrică și validarea statistică prin indicele GEH", size: "2.7 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Curs 7: Nivelul de Serviciu (LOS) și mecanismele de propagare a undelor de șoc în rețele", size: "3.0 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" } */
+          { title: "Curs PMFC", size: "1.0 MB", type: "PDF", link: "doc/Carte - PMFC.pdf" },
         ],
         labs: [
           { title: "Îndrumar de Laborator PMFC", size: "14.8 MB", type: "PDF", link: "doc/Laborator - PMFC.pdf" },
         ],
         projects: [
           { title: "Îndrumar de Proiect PMFC", size: "1.5 MB", type: "PDF", link: "doc/Proiect - PMFC.pdf" },
-          /*           { title: "Set de date trafic primare (Recensământ volumetric orar)", size: "4.8 MB", type: "ZIP", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-                    { title: "Șablon planșe AutoCAD (.dwg) și structură raport tehnic de simulare", size: "8.1 MB", type: "ZIP", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" } */
         ],
         exam: [
           /*           { title: "Tematica oficială și structura baremului de evaluare continuă & examen", size: "0.4 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
@@ -71,71 +63,61 @@ const ACADEMIC_DATA = {
     {
       id: "mtrt1",
       code: "ITT-302",
-      title: "Managementul Traficului Rutier și Telematică I",
+      title: "Managementul Traficului Rutier și Telematică",
       level: "licenta",
       degree: "Ingineria Transporturilor și a Traficului (ITT)",
-      year: "Anul III, Semestrul I",
-      role: "Titular Curs & Laborator",
-      hours: { curs: 2, lab: 2, proiect: 0 },
+      year: "Anul III, Semestrul II, Anul IV, Semestrul I",
+      role: "-",
+      hours: { curs: 2, lab: 1, proiect: 0 },
       description: "Algoritmi de dirijare și control al circulației, semaforizare fixă, semi-adaptivă și adaptivă în timp real. Tehnologia buclelor inductive virtuale (SmartLoop), calculul fluxului de saturație, matrice de conflict și optimizarea metodei Webster.",
       software: ["SmartLoop TS", "MATLAB", "Excel Trafic Calc"],
       driveFolder: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID",
       materials: {
         courses: [
-          { title: "Curs 1: Paradigme de control în dirijarea semaforică: Timpi ficși vs. Semiadaptiv vs. Adaptiv online", size: "2.1 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" },
-          { title: "Curs 2: Senzori de trafic: bucle inductive fizice vs. bucle video virtuale (SmartLoop TS)", size: "3.4 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" },
-          { title: "Curs 3: Fluxul de saturație de bază și coeficienții analitici de corecție geometrică (HCM)", size: "2.9 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" },
-          { title: "Curs 4: Teoria matricelor de conflict și separarea mișcărilor concurente în faze semaforice", size: "2.3 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" },
-          { title: "Curs 5: Metoda analitică Webster pentru optimizarea ciclului semaforic (Co = 1.5L+5 / 1-Y)", size: "3.1 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" },
-          { title: "Curs 6: Controlul adaptiv la intersecțiile dintre rețele prioritare naționale (DN73) și secundare (DJ792C)", size: "2.6 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" }
+          { title: "Curs MTRT", size: "2.1 MB", type: "PDF", link: "doc/Curs - MTRT.pdf" },
         ],
         labs: [
-          { title: "Îndrumar Lucrări de Laborator - Managementul Traficului (63 pagini, Craiova)", size: "11.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" },
-          { title: "Laborator 1: Configurarea zonelor de detecție SmartLoop TS pe flux video", size: "2.0 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" },
-          { title: "Laborator 2: Determinarea analitică a fluxului de saturație pe un grup de benzi", size: "1.7 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" },
-          { title: "Laborator 3: Construirea matricelor de incompatibilitate booleană (Conflict Matrix)", size: "1.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" },
-          { title: "Laborator 4: Implementarea scriptului MATLAB pentru calculul ciclului optim Webster", size: "2.2 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" }
+          { title: "Îndrumar de Laborator MTRT", size: "13.8 MB", type: "PDF", link: "doc/Laborator - Managementul Traficului.pdf" },
         ],
         projects: [
-          { title: "Studiu de caz: Proiectarea planului de semaforizare pentru o intersecție în 4 faze", size: "1.9 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" },
-          { title: "Fișier de calcul automat timpi de semaforizare (Template Excel)", size: "1.2 MB", type: "XLSX", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" }
+          { title: "Îndrumar de Proiect MTRT", size: "1.9 MB", type: "PDF", link: "doc/Proiect - MTRT.pdf" },
         ],
         exam: [
-          { title: "Structura evaluării continue și cerințe colocviu laborator", size: "0.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" }
+          /* { title: "Structura evaluării continue și cerințe colocviu laborator", size: "0.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT1_ID" } */
         ]
       }
     },
-    {
-      id: "mtrt2",
-      code: "ITT-401",
-      title: "Managementul Traficului Rutier și Telematică II",
-      level: "licenta",
-      degree: "Ingineria Transporturilor și a Traficului (ITT)",
-      year: "Anul IV, Semestrul II",
-      role: "Titular Curs & Aplicații",
-      hours: { curs: 2, lab: 2, proiect: 0 },
-      description: "Coordonarea de rețea, crearea undelor verzi bidirecționale pe coridoare urbane aglomerate, prioritizarea transportului public (Transit Signal Priority - TSP), integrarea sistemelor VMS și arhitecturi ITS avansate.",
-      software: ["Aimsun Next", "Vissim Visum", "Python / C++"],
-      driveFolder: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID",
-      materials: {
-        courses: [
-          { title: "Curs 1: Coordonarea semaforizărilor pe axe magistrale și conceptul de undă verde", size: "2.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" },
-          { title: "Curs 2: Tehnici de prioritizare a transportului public în intersecții (TSP)", size: "3.0 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" },
-          { title: "Curs 3: Calculul orizontului de predicție și al ferestrei de prioritate semaforică", size: "2.7 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" },
-          { title: "Curs 4: Sisteme telematice integrate, arhitecturi C-ITS și senzori radar/V2X", size: "3.6 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" }
-        ],
-        labs: [
-          { title: "Laborator 1: Simularea microscopică a undei verzi pe Bld. Nicolae Titulescu (Slatina)", size: "2.8 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" },
-          { title: "Laborator 2: Modelarea ferestrelor de prioritate pentru autobuze și tramvaie", size: "3.1 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" }
-        ],
-        projects: [
-          { title: "Ghid proiectare coridor inteligent de tranzit cu prioritate TSP", size: "2.0 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" }
-        ],
-        exam: [
-          { title: "Barem și chestionar de sinteză pentru colocviu", size: "0.6 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" }
-        ]
-      }
-    },
+    /*     {
+          id: "mtrt2",
+          code: "ITT-401",
+          title: "Managementul Traficului Rutier și Telematică II",
+          level: "licenta",
+          degree: "Ingineria Transporturilor și a Traficului (ITT)",
+          year: "Anul IV, Semestrul II",
+          role: "Titular Curs & Aplicații",
+          hours: { curs: 2, lab: 2, proiect: 0 },
+          description: "Coordonarea de rețea, crearea undelor verzi bidirecționale pe coridoare urbane aglomerate, prioritizarea transportului public (Transit Signal Priority - TSP), integrarea sistemelor VMS și arhitecturi ITS avansate.",
+          software: ["Aimsun Next", "Vissim Visum", "Python / C++"],
+          driveFolder: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID",
+          materials: {
+            courses: [
+              { title: "Curs 1: Coordonarea semaforizărilor pe axe magistrale și conceptul de undă verde", size: "2.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" },
+              { title: "Curs 2: Tehnici de prioritizare a transportului public în intersecții (TSP)", size: "3.0 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" },
+              { title: "Curs 3: Calculul orizontului de predicție și al ferestrei de prioritate semaforică", size: "2.7 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" },
+              { title: "Curs 4: Sisteme telematice integrate, arhitecturi C-ITS și senzori radar/V2X", size: "3.6 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" }
+            ],
+            labs: [
+              { title: "Laborator 1: Simularea microscopică a undei verzi pe Bld. Nicolae Titulescu (Slatina)", size: "2.8 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" },
+              { title: "Laborator 2: Modelarea ferestrelor de prioritate pentru autobuze și tramvaie", size: "3.1 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" }
+            ],
+            projects: [
+              { title: "Ghid proiectare coridor inteligent de tranzit cu prioritate TSP", size: "2.0 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" }
+            ],
+            exam: [
+              { title: "Barem și chestionar de sinteză pentru colocviu", size: "0.6 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_MTRT2_ID" }
+            ]
+          }
+        }, */
     {
       id: "aeh",
       code: "AR-401",
@@ -143,30 +125,22 @@ const ACADEMIC_DATA = {
       level: "licenta",
       degree: "Autovehicule Rutiere (AR) / ITT",
       year: "Anul IV, Semestrul II",
-      role: "Co-titular & Laborator",
-      hours: { curs: 2, lab: 3, proiect: 0 },
+      role: "-",
+      hours: { curs: 2, lab: 1, proiect: 1 },
       description: "Arhitecturi de propulsie electrică și hibridă, dimensionarea pachetelor de baterii Li-Ion, sisteme mecatronice de control, frânare regenerativă, bilanț energetic și evaluarea amprentei ecologice urbane.",
       software: ["MATLAB / Simulink", "SolidWorks", "BMS Monitor"],
       driveFolder: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AEH_ID",
       materials: {
         courses: [
-          { title: "Curs 1: Arhitecturi de propulsie: HEV, PHEV, BEV și FCEV", size: "3.3 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AEH_ID" },
-          { title: "Curs 2: Motoare electrice de tracțiune (PMSM, IM) și invertoare de putere", size: "2.9 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AEH_ID" },
-          { title: "Curs 3: Tehnologii de baterii de tracțiune, BMS și management termic", size: "3.7 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AEH_ID" },
-          { title: "Curs 4: Dinamica vehiculului electric și recuperarea energiei la frânare", size: "2.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AEH_ID" },
-          { title: "Tratat Curs: Autovehicule Electrice și Hibride (Editura Universitaria, 2025, 166 pag.)", size: "18.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AEH_ID" }
+          { title: "Curs AEH", size: "3.3 MB", type: "PDF", link: "doc/Carte - AEH.pdf" },
         ],
         labs: [
-          { title: "Îndrumar de Laborator - Autovehicule Electrice și Hibride (50 pagini, format A5)", size: "8.4 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AEH_ID" },
-          { title: "Laborator 1: Simularea bilanțului energetic în Simulink pe ciclu urban WLTP", size: "2.6 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AEH_ID" },
-          { title: "Laborator 2: Testarea caracteristicilor de descărcare și încărcare a celulelor Li-Ion", size: "2.1 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AEH_ID" },
-          { title: "Laborator 3: Conversia unui vehicul convențional în vehicul electric (Studiu Oltcit)", size: "3.0 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AEH_ID" }
+          { title: "Îndrumar de Laborator AEH", size: "8.4 MB", type: "PDF", link: "doc/Laborator - AEH.pdf" },
         ],
         projects: [
-          { title: "Ghid de dimensionare a grupului motopropulsor pentru autobuz electric urban", size: "2.2 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AEH_ID" }
+          { title: "Îndrumar de Proiect AEH", size: "2.2 MB", type: "PDF", link: "doc/Proiect - AEH.pdf" }
         ],
         exam: [
-          { title: "Întrebări sinteză pentru examenul de diplomă și colocviu", size: "0.7 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AEH_ID" }
         ]
       }
     },
@@ -177,26 +151,22 @@ const ACADEMIC_DATA = {
       level: "licenta",
       degree: "Ingineria Transporturilor și a Traficului (ITT)",
       year: "Anul IV, Semestrul I",
-      role: "Titular Curs & Aplicații",
+      role: "-",
       hours: { curs: 4, lab: 1, proiect: 0 },
       description: "Prelucrarea numerică și statistică a seturilor mari de date din transporturi. Automatizarea calculului matricelor de deplasare O/D, scripturi Python și C pentru prelucrarea fluxurilor orare culese din teren.",
       software: ["Python", "C/C++", "MATLAB", "GIS QGIS"],
       driveFolder: "https://drive.google.com/drive/folders/DRIVE_FOLDER_INFOTR_ID",
       materials: {
         courses: [
-          { title: "Curs 1: Structuri de date și algoritmi aplicați în ingineria transporturilor", size: "2.0 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_INFOTR_ID" },
-          { title: "Curs 2: Prelucrarea fișierelor de recensământ și interpolare numerică", size: "2.4 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_INFOTR_ID" },
-          { title: "Curs 3: Sisteme informatice geografice (GIS) pentru rețele rutiere", size: "3.2 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_INFOTR_ID" }
+          { title: "Curs Informatica in transporturi.pdf", size: "2.0 MB", type: "PDF", link: "doc/Curs - Informatica in transporturi.pdf" },
         ],
         labs: [
-          { title: "Set probleme programare în C & Python pentru date de trafic", size: "1.8 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_INFOTR_ID" },
-          { title: "Arhivă scripturi suport și fișiere de test (CSV/JSON)", size: "3.5 MB", type: "ZIP", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_INFOTR_ID" }
+          { title: "Îndrumar de Laborator Informatica in transporturi.pdf", size: "1.8 MB", type: "PDF", link: "doc/Laborator - Informatica in transporturi.pdf" },
         ],
         projects: [
-          { title: "Proiect aplicație software pentru calculul automat al nivelului de serviciu", size: "1.4 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_INFOTR_ID" }
+          { title: "Îndrumar de Proiect Informatica in transporturi.pdf", size: "1.4 MB", type: "PDF", link: "doc/Proiect - Informatica in transporturi.pdf" }
         ],
         exam: [
-          { title: "Ghid evaluare proiect informatic și colocviu", size: "0.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_INFOTR_ID" }
         ]
       }
     },
@@ -206,29 +176,49 @@ const ACADEMIC_DATA = {
       title: "Logistică Urbană",
       level: "masterat",
       degree: "Optimizarea Sistemelor de Transport Rutier (OSTR)",
-      year: "Master Anul I, Semestrul I & II",
-      role: "Titular Curs & Aplicații",
+      year: "Master Anul I, Semestrul II",
+      role: "-",
       hours: { curs: 2, lab: 1, proiect: 1 },
       description: "Managementul avansat al logisticii mărfurilor în aglomerările urbane: restricții de tonaj pe axele centrale, ferestre orare de aprovizionare nocturnă, optimizarea terminalelor Park & Ride și platforme de credite de mobilitate (MCP).",
       software: ["Aimsun Next", "GIS Logistics Tools"],
       driveFolder: "https://drive.google.com/drive/folders/DRIVE_FOLDER_LOGURB_ID",
       materials: {
         courses: [
-          { title: "Curs 1: Concepte de City Logistics și sustenabilitatea lanțului de distribuție", size: "2.8 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_LOGURB_ID" },
-          { title: "Curs 2: Impactul marilor complexe comerciale asupra rețelei rutiere arteriale", size: "3.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_LOGURB_ID" },
-          { title: "Curs 3: Politici de restricționare a traficului greu și variante ocolitoare", size: "2.7 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_LOGURB_ID" },
-          { title: "Curs 4: Arhitectura Platformei de Credite de Mobilitate (MCP / Tradable Mobility Credits)", size: "4.1 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_LOGURB_ID" },
-          { title: "Tratat: Logistică Urbană - Note de curs (Editura Universitaria, 200 pag.)", size: "16.4 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_LOGURB_ID" }
+          { title: "Curs Logistică Urbană.pdf", size: "2.8 MB", type: "PDF", link: "doc/Curs - Logistica Urbana.pdf" },
         ],
         labs: [
-          { title: "Îndrumar de Laborator - Logistică Urbană (72 pagini)", size: "9.2 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_LOGURB_ID" },
-          { title: "Aplicație: Evaluarea microscopică a eliminării traficului greu de pe Strada Artileriei (Slatina)", size: "3.4 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_LOGURB_ID" }
+          { title: "Îndrumar de Laborator Logistică Urbană.pdf", size: "9.2 MB", type: "PDF", link: "doc/Laborator - Logistica Urbana.pdf" }
         ],
         projects: [
-          { title: "Ghid de disertație: Proiectarea unui micro-hub logistic urban cu distribuție ecologică", size: "1.9 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_LOGURB_ID" }
+          { title: "Îndrumar de Proiect Logistică Urbană.pdf", size: "1.9 MB", type: "PDF", link: "doc/Proiect - Logistica Urbana.pdf" }
         ],
         exam: [
-          { title: "Structura colocviului și teme de dezbatere științifică", size: "0.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_LOGURB_ID" }
+        ]
+      }
+    },
+    {
+      id: "msoc",
+      code: "MSOC-201",
+      title: "Modelarea, Sistematizarea și Organizarea Circulației",
+      level: "masterat",
+      degree: "Optimizarea Sistemelor de Transport Rutier (OSTR)",
+      year: "Master Anul II, Semestrul I",
+      role: "-",
+      hours: { curs: 2, lab: 1, proiect: 1 },
+      description: "Managementul avansat al logisticii mărfurilor în aglomerările urbane: restricții de tonaj pe axele centrale, ferestre orare de aprovizionare nocturnă, optimizarea terminalelor Park & Ride și platforme de credite de mobilitate (MCP).",
+      software: ["Vissum/Vissim", "GIS Logistics Tools"],
+      driveFolder: "https://drive.google.com/drive/folders/DRIVE_FOLDER_LOGURB_ID",
+      materials: {
+        courses: [
+          { title: "Curs Modelarea, Sistematizarea și Organizarea Circulației.pdf", size: "2.8 MB", type: "PDF", link: "doc/Curs - MSOC.pdf" },
+        ],
+        labs: [
+          { title: "Îndrumar de Laborator Modelarea, Sistematizarea și Organizarea Circulației.pdf", size: "9.2 MB", type: "PDF", link: "doc/Laborator - MSOC.pdf" }
+        ],
+        projects: [
+          { title: "Îndrumar de Proiect Modelarea, Sistematizarea și Organizarea Circulației.pdf", size: "1.9 MB", type: "PDF", link: "doc/Proiect - MSOC.pdf" }
+        ],
+        exam: [
         ]
       }
     },
@@ -239,28 +229,21 @@ const ACADEMIC_DATA = {
       level: "masterat",
       degree: "Autovehicule Hibride, Electrice și Autonome (AHEA / DMA)",
       year: "Master Anul II, Semestrul I",
-      role: "Titular Curs & Aplicații",
+      role: "-",
       hours: { curs: 2, lab: 1, proiect: 0 },
       description: "Niveluri de autonomie conform standardului SAE (SAE Level 0-5), tehnologii senzoriale integrate (LiDAR, Radar, Camere stereoscopice, Ultrasunete), algoritmi de percepție, planificare a traiectoriei și interacțiunea cu infrastructura inteligentă V2I.",
       software: ["ROS / Python", "MATLAB Automated Driving Toolbox", "SolidWorks"],
       driveFolder: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AUTOAV_ID",
       materials: {
         courses: [
-          { title: "Curs 1: Taxonomia SAE și evoluția sistemelor avansate de asistență (ADAS)", size: "3.8 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AUTOAV_ID" },
-          { title: "Curs 2: Fuziunea senzorială: LiDAR, camere, radar milimetric și GNSS/RTK", size: "4.2 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AUTOAV_ID" },
-          { title: "Curs 3: Algoritmi de localizare și mapare simultană (SLAM)", size: "3.1 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AUTOAV_ID" },
-          { title: "Curs 4: Luarea deciziilor în timp real și interacțiunea în noduri urbane complexe", size: "3.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AUTOAV_ID" },
-          { title: "Manual Curs: Autonomous Vehicles (150 pagini)", size: "15.0 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AUTOAV_ID" }
+          { title: "Curs Autovehicule Autonome (Autonomous Vehicles)", size: "2.8 MB", type: "PDF", link: "doc/Curs - AV.pdf" },
         ],
         labs: [
-          { title: "Laborator 1: Simularea detectării pietonilor și a obstacolelor în mediu virtual", size: "2.9 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AUTOAV_ID" },
-          { title: "Laborator 2: Algoritmi de urmărire automată a benzii și frânare de urgență (AEB)", size: "3.2 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AUTOAV_ID" }
+          { title: "Îndrumar de Laborator Autovehicule Autonome (Autonomous Vehicles)", size: "9.2 MB", type: "PDF", link: "doc/Laborator - AV.pdf " }
         ],
         projects: [
-          { title: "Teme de cercetare disertație: Comportamentul vehiculelor autonome în flux mixt de trafic", size: "1.7 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AUTOAV_ID" }
         ],
         exam: [
-          { title: "Cerințe colocviu și evaluare referate științifice", size: "0.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_AUTOAV_ID" }
         ]
       }
     },
@@ -271,27 +254,21 @@ const ACADEMIC_DATA = {
       level: "masterat",
       degree: "Managementul Sistemelor Industriale (MSI) / DMA",
       year: "Master Anul II, Semestrul II",
-      role: "Titular Curs & Aplicații",
+      role: "-",
       hours: { curs: 1, lab: 2, proiect: 0 },
       description: "Metodologii avansate de fabricație aditivă (FDM, SLA, SLS, Tehnologii Markforged, Formlabs, 3D Systems), scanare 3D industrială, Reverse Engineering, optimizare topologică și proiectare parametrică în SolidWorks CAD/FEA.",
       software: ["SolidWorks CAD/FEA", "Eiger Markforged", "PreForm Formlabs", "3D Sprint"],
       driveFolder: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PROTOTIP_ID",
       materials: {
         courses: [
-          { title: "Curs 1: Tehnologii de fabricație aditivă industrială și clasificarea materialelor", size: "4.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PROTOTIP_ID" },
-          { title: "Curs 2: Scanarea 3D și ingineria inversă aplicată pe componente mecanice auto", size: "3.9 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PROTOTIP_ID" },
-          { title: "Curs 3: Optimizare topologică și analiză structurală FEA pentru piese printate 3D", size: "3.4 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PROTOTIP_ID" },
-          { title: "Tratat Curs: Design și Optimizare în Prototiparea Rapidă (150 pagini)", size: "17.2 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PROTOTIP_ID" }
+          { title: "Curs Design și Optimizare în Prototiparea Rapidă", size: "2.8 MB", type: "PDF", link: "doc/Curs - DOPR.pdf" },
         ],
         labs: [
-          { title: "Ghid practic: De la scanare 3D la printarea piesei din polimeri compoziți", size: "4.0 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PROTOTIP_ID" },
-          { title: "Aplicație: Reconstrucția 3D și printarea unui braț biomecanic protetic", size: "3.8 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PROTOTIP_ID" }
+          { title: "Îndrumar de Laborator Design și Optimizare în Prototiparea Rapidă", size: "9.2 MB", type: "PDF", link: "doc/Laborator - DOPR.pdf " }
         ],
         projects: [
-          { title: "Proiect semestrial: Proiectarea și printarea 3D a unui subansamblu funcțional auto", size: "2.1 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PROTOTIP_ID" }
         ],
         exam: [
-          { title: "Criterii evaluare prototip fizic și susținere dosar de fabricație", size: "0.6 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PROTOTIP_ID" }
         ]
       }
     }
@@ -301,72 +278,6 @@ const ACADEMIC_DATA = {
   books: [
     {
       id: "b1",
-      title: "Ingineria traficului rutier: evaluarea performanței și organizarea circulației în rețele de intersecții",
-      authors: "Lucian Matei, Dumitru Ilie, Laurențiu Racilă",
-      year: 2026,
-      publisher: "Editura Universitaria",
-      pages: 420,
-      isbn: "978-606-14-2291-3",
-      type: "Tratat / Monografie",
-      link: "https://drive.google.com/file/d/DRIVE_BOOK_INGTRAFIC/view"
-    },
-    {
-      id: "b2",
-      title: "Achievements and Solutions in Mechanical Engineering III - The 7th International Conference in Mechanical Engineering (ICOME)",
-      authors: "Prof. Ilie Dumitru, Prof. Laurenţiu Daniel Racilă, Prof. Lucian Matei (Editors)",
-      year: 2026,
-      publisher: "Trans Tech Publications Ltd, Switzerland",
-      pages: 194,
-      doi: "10.4028/v-7NySTl",
-      type: "Volum Editor Internațional",
-      link: "https://doi.org/10.4028/v-7NySTl"
-    },
-    {
-      id: "b3",
-      title: "Autovehicule Electrice și Hibride",
-      authors: "Laurențiu Racilă, Ilie Dumitru, Lucian Matei",
-      year: 2025,
-      publisher: "Editura Universitaria",
-      pages: 166,
-      isbn: "978-606-14-2238-8",
-      type: "Carte de specialitate",
-      link: "https://drive.google.com/file/d/DRIVE_BOOK_AEH/view"
-    },
-    {
-      id: "b4",
-      title: "Elemente de teoria elasticității: modelare și simulare",
-      authors: "Laurențiu Racilă, Ilie Dumitru, Lucian Matei",
-      year: 2024,
-      publisher: "Editura Universitaria",
-      pages: 86,
-      isbn: "978-606-14-2034-6",
-      type: "Carte de specialitate",
-      link: "https://drive.google.com/file/d/DRIVE_BOOK_ELAST/view"
-    },
-    {
-      id: "b5",
-      title: "Proceedings of the International Conference on Mechanical Engineering (ICOME 2022)",
-      authors: "Ilie Dumitru, Lucian Matei, Laurențiu Daniel Racilă, Adrian Sorin Roșca (Editors)",
-      year: 2023,
-      publisher: "Atlantis Press",
-      pages: 638,
-      isbn: "9464631511",
-      type: "Volum Editor Internațional",
-      link: "https://www.atlantis-press.com"
-    },
-    {
-      id: "b6",
-      title: "Proiectarea și Modelarea Fluxurilor de Circulație",
-      authors: "Lucian Matei, Laurențiu Racilă",
-      year: 2020,
-      publisher: "Editura Universitaria",
-      pages: 204,
-      isbn: "978-606-14-1625-7",
-      type: "Manual universitar",
-      link: "https://drive.google.com/file/d/DRIVE_BOOK_PMFC/view"
-    },
-    {
-      id: "b7",
       title: "Algoritmi de optimizare a circulației la nivel de intersecții rutiere",
       authors: "Lucian Matei",
       year: 2020,
@@ -374,7 +285,95 @@ const ACADEMIC_DATA = {
       pages: 201,
       isbn: "978-606-14-1590-2",
       type: "Monografie de cercetare",
-      link: "https://drive.google.com/file/d/DRIVE_BOOK_ALGORITMI/view"
+      link: "doc/Carte - Algoritmi.pdf"
+    },
+    {
+      id: "b2",
+      title: "Proiectarea și Modelarea Fluxurilor de Circulație",
+      authors: "Lucian Matei, Laurențiu Racilă",
+      year: 2020,
+      publisher: "Editura Universitaria",
+      pages: 204,
+      isbn: "978-606-14-1625-7",
+      type: "Manual universitar",
+      link: "doc/Carte - PMFC.pdf"
+    },
+    {
+      id: "b3",
+      title: "Ingineria traficului rutier: evaluarea performanței și organizarea circulației în rețele de intersecții",
+      authors: "Lucian Matei, Dumitru Ilie, Laurențiu Racilă",
+      year: 2026,
+      publisher: "Editura Universitaria",
+      pages: 420,
+      isbn: "978-606-14-2291-3",
+      type: "Tratat / Monografie",
+      link: "doc/Carte - Ingineria.pdf"
+    },
+    {
+      id: "b4",
+      title: "Metode numerice in C pentru ingineri. Agloritmi si programe",
+      authors: "Mihaela Racilă, Dumitru Ilie, Lucian Matei",
+      year: 2026,
+      publisher: "Editura Universitaria",
+      pages: 222,
+      isbn: "978-606-14-2292-0",
+      type: "Tratat / Monografie",
+      link: "doc/Carte - Metode.pdf"
+    },
+    {
+      id: "b5",
+      title: "Achievements and Solutions in Mechanical Engineering III - The 7th International Conference in Mechanical Engineering (ICOME)",
+      authors: "Ilie Dumitru, Laurenţiu Daniel Racilă, Lucian Matei (Editors)",
+      year: 2026,
+      publisher: "Trans Tech Publications Ltd, Switzerland",
+      pages: 194,
+      doi: "10.4028/v-7NySTl",
+      type: "Volum Editor Internațional",
+      link: "doc/Carte - ICOME Achievements.pdf"
+    },
+    {
+      id: "b6",
+      title: "Autovehicule Electrice și Hibride",
+      authors: "Laurențiu Racilă, Ilie Dumitru, Lucian Matei",
+      year: 2025,
+      publisher: "Editura Universitaria",
+      pages: 166,
+      isbn: "978-606-14-2238-8",
+      type: "Carte de specialitate",
+      link: "doc/Carte - AEH.pdf"
+    },
+    {
+      id: "b7",
+      title: "Elemente de teoria elasticității: modelare și simulare",
+      authors: "Laurențiu Racilă, Ilie Dumitru, Lucian Matei",
+      year: 2024,
+      publisher: "Editura Universitaria",
+      pages: 86,
+      isbn: "978-606-14-2034-6",
+      type: "Carte de specialitate",
+      link: "doc/Carte - Elemente.pdf"
+    },
+    {
+      id: "b8",
+      title: "Proceedings of the International Conference on Mechanical Engineering (ICOME 2022)",
+      authors: "Ilie Dumitru, Lucian Matei, Laurențiu Daniel Racilă, Adrian Sorin Roșca (Editors)",
+      year: 2023,
+      publisher: "Atlantis Press",
+      pages: 638,
+      isbn: "9464631511",
+      type: "Volum Editor Internațional",
+      link: "doc/Carte - ICOME Proceedings.pdf"
+    },
+    {
+      id: "b9",
+      title: "6th International Conference on Mechanical Engineering I.C.O.M.E 2022: Book of Abstracts",
+      authors: "Lucian Matei, Laurențiu Daniel Racilă (Editors)",
+      year: 2026,
+      publisher: "Editura Universitaria",
+      pages: 88,
+      isbn: "978-606-14-1841-1",
+      type: "Volum Editor Internațional",
+      link: "doc/Carte - ICOME Abstract.pdf"
     }
   ],
 
