@@ -46,30 +46,25 @@ const ACADEMIC_DATA = {
       driveFolder: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID",
       materials: {
         courses: [
-          { title: "Curs 1: Introducere în teoria fluxurilor de circulație și ecuația fundamentală (q = k · v)", size: "2.4 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
+          /* { title: "Curs 1: Introducere în teoria fluxurilor de circulație și ecuația fundamentală (q = k · v)", size: "2.4 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
           { title: "Curs 2: Taxonomia modelării traficului: Scările Macroscopică, Mezoscopică și Microscopică", size: "3.1 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
           { title: "Curs 3: Modele de urmărire (Car-Following) și ecuația de siguranță Gipps", size: "2.8 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
           { title: "Curs 4: Modele de schimbare a benzii: manevre obligatorii (MLC) și discreționare (DLC)", size: "2.2 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
           { title: "Curs 5: Matricea Origine-Destinație (O/D) și algoritmi de alocare dinamică pe rute", size: "3.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
           { title: "Curs 6: Calibrarea parametrică și validarea statistică prin indicele GEH", size: "2.7 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Curs 7: Nivelul de Serviciu (LOS) și mecanismele de propagare a undelor de șoc în rețele", size: "3.0 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" }
+          { title: "Curs 7: Nivelul de Serviciu (LOS) și mecanismele de propagare a undelor de șoc în rețele", size: "3.0 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" } */
         ],
         labs: [
-          { title: "Îndrumar Complet de Laborator PMFC (Editura Universitaria, 86 pagini)", size: "14.2 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Laborator 1: Crearea geometriei de bază și importul ortofotoplanurilor în Aimsun Next", size: "1.8 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Laborator 2: Digitizarea benzilor de circulație, insulelor și atribuirea vitezelor libere", size: "2.1 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Laborator 3: Definirea claselor de vehicule (autoturisme, utilitare, camioane grele)", size: "1.9 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Laborator 4: Calibrarea matricelor O/D și plasarea detectoarelor virtuale SmartLoop", size: "2.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Laborator 5: Evaluarea nivelului de serviciu (LOS A - F) și extragerea timpilor de întârziere", size: "3.2 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" }
+          { title: "Îndrumar de Laborator PMFC", size: "14.8 MB", type: "PDF", link: "doc/Laborator - PMFC.pdf" },
         ],
         projects: [
-          { title: "Ghid de elaborare proiect: Sistematizarea și modelarea microscopică a unei intersecții urbane", size: "1.5 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Set de date trafic primare (Recensământ volumetric orar)", size: "4.8 MB", type: "ZIP", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Șablon planșe AutoCAD (.dwg) și structură raport tehnic de simulare", size: "8.1 MB", type: "ZIP", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" }
+          { title: "Îndrumar de Proiect PMFC", size: "1.5 MB", type: "PDF", link: "doc/Proiect - PMFC.pdf" },
+          /*           { title: "Set de date trafic primare (Recensământ volumetric orar)", size: "4.8 MB", type: "ZIP", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
+                    { title: "Șablon planșe AutoCAD (.dwg) și structură raport tehnic de simulare", size: "8.1 MB", type: "ZIP", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" } */
         ],
         exam: [
-          { title: "Tematica oficială și structura baremului de evaluare continuă & examen", size: "0.4 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
-          { title: "Modele de subiecte examen scris și aplicații practice", size: "1.1 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" }
+          /*           { title: "Tematica oficială și structura baremului de evaluare continuă & examen", size: "0.4 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" },
+                    { title: "Modele de subiecte examen scris și aplicații practice", size: "1.1 MB", type: "PDF", link: "https://drive.google.com/drive/folders/DRIVE_FOLDER_PMFC_ID" } */
         ]
       }
     },
