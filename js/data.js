@@ -652,19 +652,15 @@ const ACADEMIC_DATA = {
       topics: [
         "Sistematizarea circulației și modelarea microscopică a unei intersecții critice în Aimsun Next / PTV Vissim",
         "Proiectarea și optimizarea planului de semaforizare adaptiv pe un coridor urban aglomerat",
-        "Evaluarea capacității și siguranței sensurilor giratorii urbane utilizând teoria acceptării intervalelor libere",
-        "Dezvoltarea unei aplicații software în Python / C pentru calculul automat al nivelului de serviciu (LOS)",
-        "Studiu privind optimizarea accesibilității și amenajarea nodurilor intermodale de tranzit"
+        "Evaluarea capacității și siguranței sensurilor giratorii urbane utilizând teoria acceptării intervalelor libere"
       ]
     },
     {
       type: "licenta",
       degree: "Licență - Autovehicule Rutiere (AR)",
       topics: [
-        "Dimensionarea și simularea lanțului cinematic de tracțiune pentru un autoturism electric / hibrid",
         "Proiectarea parametrică și optimizarea structurală (FEA) a unui subansamblu auto în SolidWorks",
-        "Reconstrucția 3D prin inginerie inversă și fabricarea aditivă (printare 3D) a componentelor mecanice",
-        "Reconstrucția cinematică și dinamică a dinamicii accidentelor rutiere pe baza urmelor de frânare"
+        "Reconstrucția 3D prin inginerie inversă și fabricarea aditivă (printare 3D) a componentelor mecanice"
       ]
     },
     {
@@ -673,7 +669,6 @@ const ACADEMIC_DATA = {
       topics: [
         "Evaluarea impactului introducerii benzilor rezervate și prioritizării TSP asupra emisiilor de CO2 și NOx",
         "Modelarea matematică a fluxurilor de călători prin regresie de ordin înalt pentru optimizarea orarelor RAT",
-        "Arhitecturi de tip Mobility-as-a-Service (MaaS) și scheme de credite de mobilitate transferabile",
         "Optimizarea logisticii urbane de aprovizionare nocturnă și managementul flotei de distribuție"
       ]
     },
