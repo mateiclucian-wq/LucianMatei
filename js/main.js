@@ -19,9 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
 // ==========================================================================
 function initTheme() {
   const themeToggleBtn = document.getElementById('theme-toggle');
-  const savedTheme = localStorage.getItem('lucianmatei_theme') || 
-                     (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-  
+  const savedTheme = localStorage.getItem('lucianmatei_theme') ||
+    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
   document.documentElement.setAttribute('data-theme', savedTheme);
   updateThemeIcon(savedTheme);
 
@@ -107,8 +107,8 @@ function renderCourses(filterLevel = 'all') {
   const container = document.getElementById('courses-container');
   if (!container) return;
 
-  const filtered = filterLevel === 'all' 
-    ? ACADEMIC_DATA.courses 
+  const filtered = filterLevel === 'all'
+    ? ACADEMIC_DATA.courses
     : ACADEMIC_DATA.courses.filter(c => c.level === filterLevel);
 
   container.innerHTML = filtered.map(course => `
@@ -153,7 +153,7 @@ function openMaterialsModal(courseId) {
 
   document.getElementById('modal-course-title').textContent = course.title;
   document.getElementById('modal-course-meta').textContent = `${course.code} • ${course.degree} • ${course.year}`;
-  
+
   const driveMainBtn = document.getElementById('modal-main-drive-link');
   if (driveMainBtn) {
     driveMainBtn.href = course.driveFolder;
@@ -265,7 +265,7 @@ function renderBooks() {
       </div>
       <div>
         <a href="${b.link}" target="_blank" rel="noopener" class="btn btn-sm btn-secondary" style="width: 100%;">
-          <i class="fas fa-external-link-alt"></i> Consultă / Detalii Publicație
+          <i class="fas fa-external-link-alt"></i> Detalii Publicație
         </a>
       </div>
     </div>
@@ -293,9 +293,9 @@ function renderPublications(category = 'all', searchQuery = '') {
 
   if (searchQuery.trim() !== '') {
     const q = searchQuery.toLowerCase();
-    filtered = filtered.filter(p => 
-      p.title.toLowerCase().includes(q) || 
-      p.authors.toLowerCase().includes(q) || 
+    filtered = filtered.filter(p =>
+      p.title.toLowerCase().includes(q) ||
+      p.authors.toLowerCase().includes(q) ||
       p.journal.toLowerCase().includes(q) ||
       (p.doi && p.doi.toLowerCase().includes(q))
     );
